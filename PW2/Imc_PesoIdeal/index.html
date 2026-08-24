@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC e Peso Ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="calculadora">
+        <div id="Coleta">
+            <label for="altura">Altura * </label><br>
+            <input type="text" id="Altura"><br><br>
+            <label for="Peso">Peso *</label><br>
+            <input type="text" id="Peso"><br><br>
+            <label for="Masculino">Informe seu sexo</label><br>
+            <input type="radio" id="Masculino">Masculino
+            <input type="radio" id="Feminino">Feminino <br><br>
+        </div>
+
+        <div id="Entrega">
+            <label for="Yimc">O valor do seu IMC:</label><br>
+            <input type="text" id="Yimc" readonly><br><br>
+            <label for="PesoId">Seu Peso Ideal:</label><br>
+            <input type="text" id="PesoId" readonly><br><br><br>
+            <input type="text" id="Passos" readonly>
+        </div>
+
+        <div id="botoes">
+            <button type="reset" id="limpar">Limpar</button>
+            <button type="button" id="calcular" ></button>
+
+        </div>
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
