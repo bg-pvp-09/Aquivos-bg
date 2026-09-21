@@ -13,12 +13,13 @@ body {
 
 form {
     background-image: url(lata.webp);
-    width: 450px;
+    width: 900px;
     max-width: 100%;
     margin: 0 auto;
     padding: 30px;
     background-color: white;
     border: 1px solid #cccccc;
+    color: white;
 }
 
 #coleta,

@@ -156,3 +156,4 @@ botao.addEventListener("click", function () {
 document.getElementById("fumo").addEventListener("reset", function () {
     imagem.src = "";
 });
+
