@@ -99,7 +99,8 @@ botao.addEventListener("click", function () {
 
     if ((mes === 3 && dia >= 21) || (mes === 4 && dia <= 19)) {
         signo = "Áries";
-        imagem.src = "Imagens/aries.jpg";
+        imagem.src = "Imagens/aries.jpg"
+        console.log("Imagem definida:", imagem.src);
 
     } else if ((mes === 4 && dia >= 20) || (mes === 5 && dia <= 20)) {
         signo = "Touro";
@@ -135,11 +136,11 @@ botao.addEventListener("click", function () {
 
     } else if ((mes === 12 && dia >= 22) || (mes === 1 && dia <= 19)) {
         signo = "Capricórnio";
-        imagem.src = "Imagens/Capricorn.jpg";
+        imagem.src = "Imagens/capricorn.jpg";
 
     } else if ((mes === 1 && dia >= 20) || (mes === 2 && dia <= 18)) {
         signo = "Aquário";
-        imagem.src = "Imagens/Aquarius.jpg";
+        imagem.src = "Imagens/aquarius.jpg";
 
     } else {
         signo = "Peixes";
